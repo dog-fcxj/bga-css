@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beautiful CSS Card with Colorful Animation</title>
+  <style>
+body {
+  background-image: 'https://www.petxg.com/uploads/200111/1-200111202052424.jpg';
+  /* 可选：设置背景图片的位置、重复方式、大小等 */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* cover会自动调整图片大小以填充整个背景 */
+}
+
+
+    .card {
+      width: 300px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      position: relative;    
+      animation: colorfulAnimation 1s linear infinite;
+
+    }
+
+    .card-header {
+      text-align: center;
+    }
+
+    .card-image {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .card-title {
+      margin-top: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .card-content {
+      margin-top: 20px;
+      color: #666666;
+      line-height: 1.6;
+    }
+
+    .card-footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #999999;
+    }
+
+    @keyframes colorfulAnimation {
+  0% {
+    background-position: 0 100%;
+    background: linear-gradient(135deg, #ff0000, #ff8000);
+  }
+  5% {
+    background-position: 5% 95%;
+    background: linear-gradient(135deg, #ff8000, #ffff00);
+  }
+  10% {
+    background-position: 10% 90%;
+    background: linear-gradient(135deg, #ffff00, #80ff00);
+  }
+  15% {
+    background-position: 15% 85%;
+    background: linear-gradient(135deg, #80ff00, #00ff00);
+  }
+  20% {
+    background-position: 20% 80%;
+    background: linear-gradient(135deg, #00ff00, #00ff80);
+  }
+  25% {
+    background-position: 25% 75%;
+    background: linear-gradient(135deg, #00ff80, #00ffff);
+  }
+  30% {
+    background-position: 30% 70%;
+    background: linear-gradient(135deg, #00ffff, #0080ff);
+  }
+  35% {
+    background-position: 35% 65%;
+    background: linear-gradient(135deg, #0080ff, #0000ff);
+  }
+  40% {
+    background-position: 40% 60%;
+    background: linear-gradient(135deg, #0000ff, #8000ff);
+  }
+  45% {
+    background-position: 45% 55%;
+    background: linear-gradient(135deg, #8000ff, #ff00ff);
+  }
+  50% {
+    background-position: 50% 50%;
+    background: linear-gradient(135deg, #ff00ff, #ff0080);
+  }
+  55% {
+    background-position: 55% 45%;
+    background: linear-gradient(135deg, #ff0080, #ff0000);
+  }
+  60% {
+    background-position: 60% 40%;
+    background: linear-gradient(135deg, #ff0000, #ff8000);
+  }
+  65% {
+    background-position: 65% 35%;
+    background: linear-gradient(135deg, #ff8000, #ffff00);
+  }
+  70% {
+    background-position: 70% 30%;
+    background: linear-gradient(135deg, #ffff00, #80ff00);
+  }
+  75% {
+    background-position: 75% 25%;
+    background: linear-gradient(135deg, #80ff00, #00ff00);
+  }
+  80% {
+    background-position: 80% 20%;
+    background: linear-gradient(135deg, #00ff00, #00ff80);
+  }
+  85% {
+    background-position: 85% 15%;
+    background: linear-gradient(135deg, #00ff80, #00ffff);
+  }
+  90% {
+    background-position: 90% 10%;
+    background: linear-gradient(135deg, #00ffff, #0080ff);
+  }
+  95% {
+    background-position: 95% 5%;
+    background: linear-gradient(135deg, #0080ff, #0000ff);
+  }
+  100% {
+    background-position: 100% 0;
+    background: linear-gradient(135deg, #0000ff, #8000ff);
+  }
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <img class="card-image" src="https://www.petxg.com/uploads/200111/1-200111202052424.jpg" alt="Card Image">
+    </div>
+    <div class="card-title">Beautiful CSS Card</div>
+    <div class="card-content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod elit sit amet eros aliquam, ac tincidunt lorem malesuada.
+    </div>
+    <div class="card-footer">Created by Your Name</div>
+  </div>
+</body>
+</html>

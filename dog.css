@@ -1,0 +1,35 @@
+body {
+    background-image:url(https://www.petxg.com/uploads/200111/1-200111202052424.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    
+.pagesection__content,.portlet__content,.tips__content {
+    background-color:rgba(0,0,0,0.2);
+    border-radius:5px;
+    box-shadow:5px 5px 5px 0 rgba(255,255,255,.2);
+    padding:12px;
+    }
+    
+.pageheader {
+    background-color:rgba(0,0,0,0.4);
+    overflow:hidden;
+    position:relative;
+    margin:0 0 20px;
+    padding:12px 12px 0;
+    }
+    
+.pageheader_menu_verylarge .pageheader_big_switch {
+    background-color:rgba(0,0,0,0.4);
+    border-left:1px solid #bdbdbd78;
+    border-top:1px solid #bdbdbd78;
+    -o-box-shadow:3px 5px 5px 0 rgba(0,0,0,.4);
+    box-shadow:3px 5px 5px 0 rgba(0,0,0,.4);
+    box-sizing:border-box;
+    color:#8337cd;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565,Direction=0,Strength=15);
+    font-weight:700;
+    opacity:1;
+    width:100%;
+    }
