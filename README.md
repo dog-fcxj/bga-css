@@ -1,2 +1,2 @@
 # bga-css
-custom css for boardgamearena.com
+custom css for https://boardgamearena.com
