@@ -10,7 +10,7 @@ Custom CSS for BoardGameArena
 
 "黑色主题" - 来自 bastien09/bga-dark-theme 的贡献：这个主题采用暗色背景，为游戏界面带来深邃、神秘的氛围。适合喜欢沉浸式游戏体验的玩家，让你沉浸在游戏的世界中。
 
-以及dog-fcxj创建建的阳光开朗大狗狗主题，以上格式放置在docs/boardgamearena.com中
+以及dog-fcxj创建的阳光开朗大狗狗主题（只是改了个图我就这水平了），以上格式放置在docs/boardgamearena.com中
 
 你可以根据个人喜好选择适合自己的主题，并通过简单的步骤将其应用到 BoardGameArena 平台上。
 
