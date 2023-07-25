@@ -14,7 +14,7 @@ Custom CSS for BoardGameArena
 
 你可以根据个人喜好选择适合自己的主题，并通过简单的步骤将其应用到 BoardGameArena 平台上。
 
-访问https://boardgamearena.com/preferences?section=advanced、复制粘贴、保存、返回首页、ctrl+F5。
+访问https://boardgamearena.com/preferences?section=advanced 、复制粘贴、保存、返回首页、ctrl+F5。
 
 由于bga禁止外链所以很遗憾无法使用@import方法引用（也许google.com的子域名可以）
 
